@@ -2,14 +2,9 @@
 
 namespace {
 
-    use Avalonia\Layout\HorizontalAlignment;
-    use Avalonia\Layout\VerticalAlignment;
     use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
-    use Peachpie\Avalonia\Collections\UxList;
     use Peachpie\Avalonia\Controls\UxButton;
-    use Peachpie\Avalonia\Controls\UxListBox;
     use Peachpie\Avalonia\Controls\UxStackPanel;
-    use Peachpie\Avalonia\Controls\UxTextBlock;
     use Peachpie\Avalonia\Controls\UxWindow;
 
     class Main extends UxWindow
@@ -24,6 +19,7 @@ namespace {
             $this->InitializeComponent();
 
             $this->Button = $this->FindByName("Button");
+            $this->StackPanel = $this->FindByName("StackPanel");
 
             $this->Button->on("Click", function (UxButton $button, $args) {
                 $this->Title = "Clicked!";

@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f3f3eb-aa89-4a7f-bf49-bb3177238d3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ReRunApplication.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Main.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Main.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.msbuildproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.msbuildproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Application/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Main.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
       <updated>1696424982094</updated>
       <workItem from="1696424984400" duration="1944000" />
       <workItem from="1696432267562" duration="1218000" />
-      <workItem from="1696433508440" duration="1325000" />
+      <workItem from="1696433508440" duration="2595000" />
     </task>
     <servers />
   </component>
