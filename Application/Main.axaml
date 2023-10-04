@@ -8,10 +8,8 @@
                   Icon="/Assets/icon.png"
                   x:Class="Main"
                   Title="Main Window">
-    <controls:UxStackPanel Name="MyUxStackPanel" >
-        <controls:UxButton HorizontalAlignment="Center" Content="Click me!" Name="MyUxButton"/>
-        <controls:UxButton HorizontalAlignment="Center" Content="Show Demo Form" Name="OpenDemo"/>
-        <controls:UxListBox Name="MyListBox"/>
+    <controls:UxStackPanel Name="StackPanel" >
+        <controls:UxButton HorizontalAlignment="Center" Content="Click me!" Name="Button"/>
     </controls:UxStackPanel>
 
 </controls:UxWindow>
