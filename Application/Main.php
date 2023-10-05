@@ -2,7 +2,10 @@
 
 namespace {
 
+    use Avalonia\Controls\ClickMode;
+    use Avalonia\Layout\HorizontalAlignment;
     use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
+    use Avalonia\Media\Brushes;
     use Peachpie\Avalonia\Controls\UxButton;
     use Peachpie\Avalonia\Controls\UxStackPanel;
     use Peachpie\Avalonia\Controls\UxWindow;
@@ -23,6 +26,7 @@ namespace {
 
             $this->Button->on("Click", function (UxButton $button, $args) {
                 $this->Title = "Clicked!";
+                $button->HorizontalAlignment = HorizontalAlignment::Left;
             });
         }
 
