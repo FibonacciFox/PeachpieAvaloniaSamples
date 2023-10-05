@@ -2,6 +2,7 @@
 
 namespace {
     use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
+    use Peachpie\Avalonia\Collections\UxDictionary;
     use Peachpie\Avalonia\Controls\UxTextBlock;
     use Peachpie\Avalonia\Controls\UxWindow;
 
@@ -17,6 +18,7 @@ namespace {
             $this->HelloApp = $this->FindByName("HelloApp");
 
             $this->HelloApp->Text = "Stylized UxTextBlock!";
+
 
         }
 

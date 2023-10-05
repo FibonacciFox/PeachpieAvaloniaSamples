@@ -13,8 +13,8 @@
     </controls:UxWindow.Styles>
     
     <controls:UxStackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
-        <controls:UxTextBlock Classes="h1" Name="HelloApp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-        <controls:UxStackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <controls:UxTextBlock Classes="h1"  Name="HelloApp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <controls:UxStackPanel Spacing="6" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
             <controls:UxButton Name="AddH1Button">Add h1 Class</controls:UxButton>
             <controls:UxButton Name="RemoveH1Button">Remove h1 Class</controls:UxButton>
         </controls:UxStackPanel>
