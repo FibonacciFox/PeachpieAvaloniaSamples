@@ -1,0 +1,24 @@
+﻿<controls:UxWindow xmlns="https://github.com/avaloniaui"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:controls="clr-namespace:Peachpie.Avalonia.Controls;assembly=Peachpie.Avalonia"
+                  mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                  Width="600" Height="600"
+                  Icon="/Assets/icon.png"
+                  x:Class="Main"
+                  Title="Styles">
+    <controls:UxWindow.Styles>
+        <StyleInclude Source="/Styles/MainStyles.axaml" />
+    </controls:UxWindow.Styles>
+    
+    <controls:UxStackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <controls:UxTextBlock Classes="h1" Name="HelloApp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <controls:UxStackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <controls:UxButton Name="AddH1Button">Add h1 Class</controls:UxButton>
+            <controls:UxButton Name="RemoveH1Button">Remove h1 Class</controls:UxButton>
+        </controls:UxStackPanel>
+    </controls:UxStackPanel>
+   
+    
+</controls:UxWindow>

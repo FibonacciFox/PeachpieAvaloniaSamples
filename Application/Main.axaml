@@ -7,35 +7,6 @@
                   Width="500" Height="500"
                   Icon="/Assets/icon.png"
                   x:Class="Main"
-                  Title="Main Window">
-    <controls:UxWindow.Resources>
-        <SpringEasing x:Key="SpringEasing" Mass="1" Stiffness="2000" Damping="20" InitialVelocity="0" />
-    </controls:UxWindow.Resources>
-    <controls:UxWindow.Styles>
-        <Style Selector="controls|UxButton.spring">
-            <Style.Animations>
-                <Animation Duration="0:0:2"
-                           IterationCount="Infinite"
-                           PlaybackDirection="Normal"
-                           Easing="{DynamicResource SpringEasing}">
-                    <KeyFrame Cue="0%" KeySpline="">
-                        <Setter Property="TranslateTransform.X" Value="-300"/>
-                    </KeyFrame>
-                    <KeyFrame Cue="100%">
-                        <Setter Property="TranslateTransform.X" Value="0" />
-                    </KeyFrame>
-                </Animation>
-            </Style.Animations>
-        </Style>
-    </controls:UxWindow.Styles>
-    <controls:UxStackPanel Name="StackPanel" >
-        <controls:UxButton Classes="spring" HorizontalAlignment="Center" Content="Click me!" Name="Button">
-            <controls:UxButton.RenderTransform>
-                <TransformGroup>
-                    <TranslateTransform />
-                </TransformGroup>
-            </controls:UxButton.RenderTransform>
-        </controls:UxButton>
-    </controls:UxStackPanel>
-
+                  Title="Application">
+    <controls:UxTextBlock Name="HelloApp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 </controls:UxWindow>
