@@ -1,5 +1,7 @@
 <?php
 namespace Avalonia\Threading;
+use System\TimeSpan as TimeSpanAlias;
+
 /**
  */
 class DispatcherTimer extends \System\Object
@@ -15,7 +17,7 @@ class DispatcherTimer extends \System\Object
 	 */
 	public $IsEnabled;
 	/**
-	 * @var \System\TimeSpan
+	 * @var TimeSpanAlias
 	 * @property
 	 */
 	public $Interval;
@@ -38,11 +40,11 @@ class DispatcherTimer extends \System\Object
 	 */
 	public  function set_IsEnabled($value){}
 	/**
-	 * @return \System\TimeSpan
+	 * @return TimeSpanAlias
 	 */
 	public  function get_Interval(){}
 	/**
-	 * @param \System\TimeSpan $value
+	 * @param TimeSpanAlias $value
 	 * @return \System\Void|void
 	 */
 	public  function set_Interval($value){}
@@ -56,14 +58,14 @@ class DispatcherTimer extends \System\Object
 	public  function Stop(){}
 	/**
 	 * @param \System\Func_1 $action
-	 * @param \System\TimeSpan $interval
+	 * @param TimeSpanAlias $interval
 	 * @param \Avalonia\Threading\DispatcherPriority $priority
 	 * @return \System\IDisposable
 	 */
-	public static function Run($action, $interval, $priority){}
+	public static function Run(\Closure $action, $interval, $priority){}
 	/**
 	 * @param \System\Action $action
-	 * @param \System\TimeSpan $interval
+	 * @param TimeSpanAlias $interval
 	 * @param \Avalonia\Threading\DispatcherPriority $priority
 	 * @return \System\IDisposable
 	 */

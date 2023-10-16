@@ -2,9 +2,10 @@
 
 namespace {
     use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
-    use Peachpie\Avalonia\Collections\UxDictionary;
+    use Avalonia\Threading\DispatcherTimer;
     use Peachpie\Avalonia\Controls\UxTextBlock;
     use Peachpie\Avalonia\Controls\UxWindow;
+    use System\TimeSpan;
 
     class Main extends UxWindow
     {
@@ -17,10 +18,13 @@ namespace {
 
             $this->HelloApp = $this->FindByName("HelloApp");
 
-            $this->HelloApp->Text = "Stylized UxTextBlock!";
-
+            DispatcherTimer::Run( action: function(): bool {
+                $this->HelloApp->Text = date("Y-m-d H:i:s");
+                return true;
+            }, interval: TimeSpan::FromSeconds(0.1), priority: null);
 
         }
+
 
         //Не удаляйте метод, если используете разметку axaml
         public function InitializeComponent(): void

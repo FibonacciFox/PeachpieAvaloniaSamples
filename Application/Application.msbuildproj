@@ -13,7 +13,6 @@
   <ItemGroup>
     <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.4" />
     <PackageReference Include="Avalonia.Fonts.Inter" Version="11.0.4" />
-    <PackageReference Include="Peachpie.Avalonia.Core" Version="0.0.1-alpha" />
-    <PackageReference Include="Peachpie.Avalonia" Version="0.0.1-alpha" />
+    <PackageReference Include="Peachpie.Avalonia" Version="0.0.2-alpha" />
   </ItemGroup>
 </Project>

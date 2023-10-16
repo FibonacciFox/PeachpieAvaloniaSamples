@@ -2,7 +2,6 @@
 chcp 65001
 
 :retry
-
 dotnet clean & dotnet build
 
 if %errorlevel% neq 0 (
@@ -11,4 +10,4 @@ if %errorlevel% neq 0 (
 )
 
 echo Сборка проекта выполнена успешно, запускаю проект.
-dotnet run --project Styles
+dotnet run
