@@ -10,6 +10,6 @@ $lifetime->Args = null;
 $lifetime->ShutdownMode = ShutdownMode::OnLastWindowClose;
 
 
-AppPhpBuilder::Configure("App, Styles")->UsePlatformDetect()->WithInterFont()->SetupWithLifetime($lifetime);
+AppPhpBuilder::Configure("App, MVVM")->UsePlatformDetect()->WithInterFont()->SetupWithLifetime($lifetime);
 
 $lifetime->Start(args: null);

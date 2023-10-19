@@ -1,0 +1,30 @@
+﻿<controls:UxWindow xmlns="https://github.com/avaloniaui"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                  xmlns:controls="using:Peachpie.Avalonia.Controls"
+                  xmlns:viewModels="using:ViewModels"
+                  mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+                  Width="500" Height="500"
+                  Icon="/Assets/icon.png"
+                  x:Class="Views.Main"
+                  Title="{Binding [Title]}">
+    <controls:UxWindow.DataContext>
+        <viewModels:MainViewModel/>
+    </controls:UxWindow.DataContext>
+    <controls:UxGrid>
+        <controls:UxDataGrid Margin="20" ItemsSource="{Binding [People]}"
+                             IsReadOnly="False"
+                             CanUserReorderColumns="True"
+                             CanUserResizeColumns="True"
+                             CanUserSortColumns="True"
+                             GridLinesVisibility="All"
+                             BorderThickness="1" BorderBrush="Gray">
+            <controls:UxDataGrid.Columns>
+                <DataGridTextColumn IsReadOnly="False" Header="Name"  Binding="{Binding [Name]}"/>
+                <DataGridTextColumn Header="Surname" Binding="{Binding [Surname]}" />
+                <DataGridCheckBoxColumn Header="Fictitious?" Binding="{Binding [IsTrue]}" />
+            </controls:UxDataGrid.Columns>
+        </controls:UxDataGrid>
+    </controls:UxGrid>
+</controls:UxWindow>

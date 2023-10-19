@@ -5,28 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3f3f3eb-aa89-4a7f-bf49-bb3177238d3d" name="Changes" comment="Update sdk">
-      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Run.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/.idea/.idea.Hybrid.dir/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/.idea/.idea.Hybrid.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/App.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/App.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Assets/Warn64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Hybrid.msbuildproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Library/Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Main.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Program.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/Run.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hybrid/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Styles/Run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/.idea.MVVM.dir/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/.idea.MVVM.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/.idea.MVVM.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/.idea.MVVM.dir/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/.idea.MVVM.dir/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/MVVM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/App.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Assets/Warn64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Assets/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/MVVM.msbuildproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Models/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Program.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/ViewModels/MainViewModel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Views/Main.axaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/Views/Main.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MVVM/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sdk/Peachpie/Avalonia/Collections/UxObservableDictionary.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Main.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReRunApplication.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReRunStyles.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdk/Avalonia/Threading/DispatcherTimer.php" beforeDir="false" afterPath="$PROJECT_DIR$/sdk/Avalonia/Threading/DispatcherTimer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Application.msbuildproj" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Application.msbuildproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Main.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Main.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Program.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PeachpieAvaloniaSamples.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PeachpieAvaloniaSamples.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/Main.axaml" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/Main.axaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/Program.php" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/Program.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Styles/Styles.msbuildproj" beforeDir="false" afterPath="$PROJECT_DIR$/Styles/Styles.msbuildproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +81,7 @@
       <recent name="E:\PeachpieAvaloniaSamples\Application\Forms" />
     </key>
   </component>
-  <component name="RunManager" selected="Batch.ReRunStyles">
+  <component name="RunManager" selected="Batch.Run">
     <configuration name="ReRunApplication" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="PeachpieAvaloniaSamples" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,8 +100,18 @@
       <option name="PARAMETERS" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="PeachpieAvaloniaSamples" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="./Application" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="Run.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Batch.Run" />
         <item itemvalue="Batch.ReRunStyles" />
         <item itemvalue="Batch.ReRunApplication" />
       </list>
@@ -119,6 +138,8 @@
       <workItem from="1696945019882" duration="1655000" />
       <workItem from="1696951650495" duration="3066000" />
       <workItem from="1697474374969" duration="13000" />
+      <workItem from="1697733037935" duration="853000" />
+      <workItem from="1697734074979" duration="2925000" />
     </task>
     <servers />
   </component>

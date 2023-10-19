@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styles", "Styles\Styles.msbuildproj", "{F138BF94-0AFE-4B47-8A90-9A7D03A9F4D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.msbuildproj", "{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{F138BF94-0AFE-4B47-8A90-9A7D03A9F4D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F138BF94-0AFE-4B47-8A90-9A7D03A9F4D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F138BF94-0AFE-4B47-8A90-9A7D03A9F4D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
