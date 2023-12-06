@@ -2,7 +2,7 @@
 
 namespace Views {
 
-    use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
+    use Peachpie\Avalonia\Markup\Xaml\AvaloniaXamlLoader;
     use Peachpie\Avalonia\Controls\UxWindow;
 
     class Main extends UxWindow

@@ -1,8 +1,9 @@
 <?php
+
 namespace {
 
     use Avalonia\Application;
-    use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
+    use Peachpie\Avalonia\Markup\Xaml\AvaloniaXamlLoader;
 
     class App extends Application
     {
@@ -12,7 +13,8 @@ namespace {
             $this->InitializeComponent();
         }
 
-        public function OnFrameworkInitializationCompleted() : void {
+        public function OnFrameworkInitializationCompleted(): void
+        {
             $this->ApplicationLifetime->MainWindow = new Main();
         }
 

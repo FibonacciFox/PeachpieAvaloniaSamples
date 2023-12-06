@@ -3,7 +3,7 @@
     <OutputType>WinExe</OutputType>
     <StartupObject>Program.php</StartupObject>
     <TargetFramework>net7.0</TargetFramework>
-    <Description>My Super PHP App</Description>
+    <Description>My Super PHP Styles App</Description>
   </PropertyGroup>
   
   <ItemGroup>
@@ -12,7 +12,6 @@
     <AvaloniaResource Include="Styles\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.5" />
-    <PackageReference Include="Peachpie.Avalonia" Version="0.0.3-alpha" />
+    <PackageReference Include="Peachpie.Avalonia" Version="0.0.4-alpha" />
   </ItemGroup>
 </Project>

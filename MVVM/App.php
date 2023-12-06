@@ -2,7 +2,7 @@
 namespace {
 
     use Avalonia\Application;
-    use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
+    use Peachpie\Avalonia\Markup\Xaml\AvaloniaXamlLoader;
     use ViewModels\MainViewModel;
     use Views\Main;
 

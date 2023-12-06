@@ -22,6 +22,9 @@ class MainViewModel extends UxObservableDictionary
 
         $PersonList = new UxList();
         $PersonList->Add(new Person("Fibonacci","Fox", true));
+        $PersonList->Add(new Person("Fibonacci","Fox", true));
+        $PersonList->Add(new Person("Fibonacci","Fox", true));
+        $PersonList->Add(new Person("Fibonacci","Fox", true));
 
         $this["People"] = $PersonList;
     }

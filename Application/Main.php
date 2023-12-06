@@ -1,7 +1,7 @@
 <?php
 
 namespace {
-    use Avalonia\Markup\Xaml\AvaloniaXamlLoader;
+    use Peachpie\Avalonia\Markup\Xaml\AvaloniaXamlLoader;
     use Avalonia\Threading\DispatcherTimer;
     use Peachpie\Avalonia\Controls\UxTextBlock;
     use Peachpie\Avalonia\Controls\UxWindow;
@@ -25,11 +25,10 @@ namespace {
 
         }
 
-
         //Не удаляйте метод, если используете разметку axaml
         public function InitializeComponent(): void
         {
-            AvaloniaXamlLoader::Load($this);
+          AvaloniaXamlLoader::Load($this);
         }
     }
 

@@ -8,5 +8,9 @@
                   Icon="/Assets/icon.png"
                   x:Class="Main"
                   Title="Application">
-    <controls:UxTextBlock Name="HelloApp" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+	<controls:UxStackPanel Orientation="Horizontal">
+		<controls:UxTextBlock Name="HelloApp" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+		<controls:UxTextBlock Name="HelloApp1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+	</controls:UxStackPanel>
+    
 </controls:UxWindow>

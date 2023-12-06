@@ -1,10 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.msbuildproj", "{E77AF456-0110-4F87-AEF8-C5FCABC31C03}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.msbuildproj", "{E77AF456-0110-4F87-AEF8-C5FCABC31C03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styles", "Styles\Styles.msbuildproj", "{F138BF94-0AFE-4B47-8A90-9A7D03A9F4D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Styles", "Styles\Styles.msbuildproj", "{F138BF94-0AFE-4B47-8A90-9A7D03A9F4D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM.msbuildproj", "{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVVM", "MVVM\MVVM.msbuildproj", "{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +27,8 @@ Global
 		{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D54807B8-CBB6-4C9D-BE58-B49B6A2BD83E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
