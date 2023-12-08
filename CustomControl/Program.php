@@ -20,6 +20,6 @@ $lifetime->ShutdownMode = ShutdownMode::OnLastWindowClose;
 
 
 
-AppPhpBuilder::Configure("App, Application")->UsePlatformDetect()->WithInterFont()->SetupWithLifetime($lifetime);
+AppPhpBuilder::Configure("App, CustomControl")->UsePlatformDetect()->WithInterFont()->SetupWithLifetime($lifetime);
 
 $lifetime->Start(args: null);

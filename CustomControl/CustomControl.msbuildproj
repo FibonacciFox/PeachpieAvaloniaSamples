@@ -1,0 +1,15 @@
+﻿<Project Sdk="Peachpie.NET.Sdk/1.2.0-r16166">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Program.php</StartupObject>
+    <TargetFramework>net7.0</TargetFramework>
+    <Description>CustomControl</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+    <AvaloniaResource Include="Assets\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Peachpie.Avalonia" Version="0.0.4-alpha" />
+  </ItemGroup>
+</Project>

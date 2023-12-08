@@ -19,7 +19,7 @@ namespace {
             $this->HelloApp = $this->FindByName("HelloApp");
 
             DispatcherTimer::Run( action: function(): bool {
-                $this->HelloApp->Text = date("Y-m-d H:i:s");
+                 $this->HelloApp->Text = date("Y-m-d H:i:s");
                 return true;
             }, interval: TimeSpan::FromSeconds(0.1), priority: null);
 
